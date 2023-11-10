@@ -1,0 +1,27 @@
+@import '../../styles.scss';
+
+
+/* For webkit-based browsers like Chrome */
+/* Customize the scrollbar itself */
+::-webkit-scrollbar {
+    width: 1px !important; /* Adjust the width */
+  }
+  
+  /* Customize the scrollbar thumb (the draggable part) */
+  ::-webkit-scrollbar-thumb {
+    background: transparent; /* Change the color */
+    border-radius: 6px; /* Add rounded corners */
+  }
+  
+  /* Customize the scrollbar track (the non-draggable part) */
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Change the color */
+  }
+  
+  /* For Firefox and some newer webkit-based browsers */
+  /* Customize the scrollbar width and color */
+  body {
+    scrollbar-width: 1px !important; /* 'auto' for the default scrollbar, 'thin' for a thin scrollbar, 'none' to hide it */
+    scrollbar-color: transparent; /* Change thumb and track colors */
+  }
+  

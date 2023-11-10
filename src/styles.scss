@@ -1,1 +1,20 @@
-/* You can add global styles to this file, and also import other style files */
+$black-text: #1C2730;
+$gray-text: #ECEEF3;
+$white : #ffffff;
+$light-gray: #F4F4F4;
+$orange: #FF8D62;
+$light-yellow: #FCCD72;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg-resto-top{
+    background: #d1cdcd;
+    .resto-name{
+        color: $black-text;
+    }
+    .help{        }
+}

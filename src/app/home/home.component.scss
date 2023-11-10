@@ -1,0 +1,19 @@
+@import '../../styles.scss';
+
+.border-rounded{
+    border-radius: 8px;
+}
+
+
+.home{
+    background: $white;
+}
+
+.about-container{
+    .about-us{
+        color: $black-text;
+        .about-food-pic{
+            width: 100%;
+        }
+    }
+}
